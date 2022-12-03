@@ -1,0 +1,18 @@
+Instalaciones requeridas:
+1.- python
+1.- No podia instalar la libreria dlib en mi computadora, por lo que tuve que ver un video y recomiendo que lo vea: https://www.youtube.com/watch?v=m6VHlvh4dTE porque tiene que instalar un paquete de visual studio
+2.-Librerias necesarias:
+    pip install opencv-python
+    pip install face-recognition
+    pip install numpy
+    pip install pillow
+    pip install tkinter (si no lo tiene instalado)
+    pip instalar mysql-connector-python
+
+
+Como funciona (resumen)
+-Al ejecutar el programa se abre una ventana de tkinter, en la cual se puede seleccionar registrar o acceder.
+-Si elige registrar, aqui debe de poner un nombre y debe tomar una captuta de su rostro, y luego estos datos se guardaran en la BD, la imagen se codificara
+-Si elige acceder, aqui debe elegir su usuario y acercarse a la camara para comparar el rostro, si es el mismo, va a guardar en la BD la hora de acceso, fecha, estado y el nombre del usuario.
+
+A rasgos generales lo que hace es un programaque toma asistencia mediante reconocimiento facial
